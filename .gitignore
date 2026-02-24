@@ -22,8 +22,6 @@ logs/
 reports/
 
 # Model weights / exports
-runs/
-*.pt
 *.onnx
 
 # OS / editor
