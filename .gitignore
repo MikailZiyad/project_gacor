@@ -1,0 +1,33 @@
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.dll
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+face_attendance/env_attendance/
+
+# Local data and artifacts
+face_attendance/data/face_attendance.db
+face_attendance/data/employees/
+face_attendance/data/attendance/
+face_attendance/data/models/
+logs/
+*.log
+reports/
+
+# Model weights / exports
+runs/
+*.pt
+*.onnx
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+
